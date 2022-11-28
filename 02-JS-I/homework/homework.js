@@ -42,9 +42,8 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-    resta = y - x;
+    resta = x - y;
     return resta;
-  
 }
 
 function multiplica(x, y) {
@@ -66,7 +65,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x==y){
+  if (x == y) {
     return true;
   } else {
     return false;
