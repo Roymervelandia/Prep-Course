@@ -64,8 +64,10 @@ function dePalabrasAFrase(palabras) {
   var texto = "";
   for (var i = 0; i < palabras.length; i++){
      texto += palabras[i] + " ";
+     var frase = texto;
+     frase = frase.trimEnd();
   }
-  return texto;
+  return frase;
 }
 
 
